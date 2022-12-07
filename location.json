@@ -1,0 +1,350 @@
+{
+  "name": "locations/2612283077490515709",
+  "languageCode": "ja",
+  "storeCode": "02",
+  "title": "GMB_CREATE",
+  "phoneNumbers": {
+    "primaryPhone": "03-1234-5737",
+    "additionalPhones": [
+      "03-1234-5738",
+      "03-1234-5739"
+    ]
+  },
+  "categories": {
+    "primaryCategory": {
+      "name": "categories/gcid:restaurant",
+      "displayName": "レストラン",
+      "moreHoursTypes": [
+        {
+          "hoursTypeId": "ACCESS",
+          "displayName": "Access",
+          "localizedDisplayName": "入店可能時間"
+        },
+        {
+          "hoursTypeId": "BREAKFAST",
+          "displayName": "Breakfast",
+          "localizedDisplayName": "朝食"
+        },
+        {
+          "hoursTypeId": "BRUNCH",
+          "displayName": "Brunch",
+          "localizedDisplayName": "ブランチ"
+        },
+        {
+          "hoursTypeId": "DELIVERY",
+          "displayName": "Delivery",
+          "localizedDisplayName": "宅配"
+        },
+        {
+          "hoursTypeId": "DINNER",
+          "displayName": "Dinner",
+          "localizedDisplayName": "ディナー"
+        },
+        {
+          "hoursTypeId": "DRIVE_THROUGH",
+          "displayName": "Drive through",
+          "localizedDisplayName": "ドライブスルー"
+        },
+        {
+          "hoursTypeId": "HAPPY_HOUR",
+          "displayName": "Happy hours",
+          "localizedDisplayName": "ハッピーアワー"
+        },
+        {
+          "hoursTypeId": "KITCHEN",
+          "displayName": "Kitchen",
+          "localizedDisplayName": "注文可能時間"
+        },
+        {
+          "hoursTypeId": "LUNCH",
+          "displayName": "Lunch",
+          "localizedDisplayName": "ランチ"
+        },
+        {
+          "hoursTypeId": "ONLINE_SERVICE_HOURS",
+          "displayName": "Online service hours",
+          "localizedDisplayName": "オンライン サービスの提供時間"
+        },
+        {
+          "hoursTypeId": "TAKEOUT",
+          "displayName": "Takeout",
+          "localizedDisplayName": "テイクアウト"
+        },
+        {
+          "hoursTypeId": "SENIOR_HOURS",
+          "displayName": "Senior hours",
+          "localizedDisplayName": "高齢者限定時間帯"
+        }
+      ]
+    },
+    "additionalCategories": [
+      {
+        "name": "categories/gcid:ice_cream_shop",
+        "displayName": "アイスクリーム店",
+        "serviceTypes": [
+          {
+            "serviceTypeId": "job_type_id:delivery",
+            "displayName": "デリバリー"
+          }
+        ],
+        "moreHoursTypes": [
+          {
+            "hoursTypeId": "ACCESS",
+            "displayName": "Access",
+            "localizedDisplayName": "入店可能時間"
+          },
+          {
+            "hoursTypeId": "BREAKFAST",
+            "displayName": "Breakfast",
+            "localizedDisplayName": "朝食"
+          },
+          {
+            "hoursTypeId": "BRUNCH",
+            "displayName": "Brunch",
+            "localizedDisplayName": "ブランチ"
+          },
+          {
+            "hoursTypeId": "DELIVERY",
+            "displayName": "Delivery",
+            "localizedDisplayName": "宅配"
+          },
+          {
+            "hoursTypeId": "DINNER",
+            "displayName": "Dinner",
+            "localizedDisplayName": "ディナー"
+          },
+          {
+            "hoursTypeId": "DRIVE_THROUGH",
+            "displayName": "Drive through",
+            "localizedDisplayName": "ドライブスルー"
+          },
+          {
+            "hoursTypeId": "HAPPY_HOUR",
+            "displayName": "Happy hours",
+            "localizedDisplayName": "ハッピーアワー"
+          },
+          {
+            "hoursTypeId": "KITCHEN",
+            "displayName": "Kitchen",
+            "localizedDisplayName": "注文可能時間"
+          },
+          {
+            "hoursTypeId": "LUNCH",
+            "displayName": "Lunch",
+            "localizedDisplayName": "ランチ"
+          },
+          {
+            "hoursTypeId": "ONLINE_SERVICE_HOURS",
+            "displayName": "Online service hours",
+            "localizedDisplayName": "オンライン サービスの提供時間"
+          },
+          {
+            "hoursTypeId": "TAKEOUT",
+            "displayName": "Takeout",
+            "localizedDisplayName": "テイクアウト"
+          },
+          {
+            "hoursTypeId": "SENIOR_HOURS",
+            "displayName": "Senior hours",
+            "localizedDisplayName": "高齢者限定時間帯"
+          }
+        ]
+      },
+      {
+        "name": "categories/gcid:pizza_delivery_service",
+        "displayName": "宅配ピザ",
+        "moreHoursTypes": [
+          {
+            "hoursTypeId": "ACCESS",
+            "displayName": "Access",
+            "localizedDisplayName": "入店可能時間"
+          },
+          {
+            "hoursTypeId": "BREAKFAST",
+            "displayName": "Breakfast",
+            "localizedDisplayName": "朝食"
+          },
+          {
+            "hoursTypeId": "BRUNCH",
+            "displayName": "Brunch",
+            "localizedDisplayName": "ブランチ"
+          },
+          {
+            "hoursTypeId": "DELIVERY",
+            "displayName": "Delivery",
+            "localizedDisplayName": "宅配"
+          },
+          {
+            "hoursTypeId": "DINNER",
+            "displayName": "Dinner",
+            "localizedDisplayName": "ディナー"
+          },
+          {
+            "hoursTypeId": "DRIVE_THROUGH",
+            "displayName": "Drive through",
+            "localizedDisplayName": "ドライブスルー"
+          },
+          {
+            "hoursTypeId": "HAPPY_HOUR",
+            "displayName": "Happy hours",
+            "localizedDisplayName": "ハッピーアワー"
+          },
+          {
+            "hoursTypeId": "KITCHEN",
+            "displayName": "Kitchen",
+            "localizedDisplayName": "注文可能時間"
+          },
+          {
+            "hoursTypeId": "LUNCH",
+            "displayName": "Lunch",
+            "localizedDisplayName": "ランチ"
+          },
+          {
+            "hoursTypeId": "ONLINE_SERVICE_HOURS",
+            "displayName": "Online service hours",
+            "localizedDisplayName": "オンライン サービスの提供時間"
+          },
+          {
+            "hoursTypeId": "TAKEOUT",
+            "displayName": "Takeout",
+            "localizedDisplayName": "テイクアウト"
+          },
+          {
+            "hoursTypeId": "SENIOR_HOURS",
+            "displayName": "Senior hours",
+            "localizedDisplayName": "高齢者限定時間帯"
+          }
+        ]
+      }
+    ]
+  },
+  "storefrontAddress": {
+    "regionCode": "JP",
+    "languageCode": "ja",
+    "postalCode": "060-0004",
+    "administrativeArea": "北海道",
+    "addressLines": [
+      "札幌市中央区北４条西４−2"
+    ]
+  },
+  "websiteUri": "https://www.google.com/",
+  "regularHours": {
+    "periods": [
+      {
+        "openDay": "SUNDAY",
+        "openTime": {},
+        "closeDay": "SUNDAY",
+        "closeTime": {
+          "hours": 2
+        }
+      },
+      {
+        "openDay": "MONDAY",
+        "openTime": {
+          "hours": 9
+        },
+        "closeDay": "MONDAY",
+        "closeTime": {
+          "hours": 17
+        }
+      },
+      {
+        "openDay": "TUESDAY",
+        "openTime": {
+          "hours": 9
+        },
+        "closeDay": "TUESDAY",
+        "closeTime": {
+          "hours": 17
+        }
+      },
+      {
+        "openDay": "WEDNESDAY",
+        "openTime": {
+          "hours": 9
+        },
+        "closeDay": "WEDNESDAY",
+        "closeTime": {
+          "hours": 17
+        }
+      },
+      {
+        "openDay": "THURSDAY",
+        "openTime": {
+          "hours": 9
+        },
+        "closeDay": "THURSDAY",
+        "closeTime": {
+          "hours": 17
+        }
+      },
+      {
+        "openDay": "FRIDAY",
+        "openTime": {
+          "hours": 9
+        },
+        "closeDay": "FRIDAY",
+        "closeTime": {
+          "hours": 17
+        }
+      },
+      {
+        "openDay": "SATURDAY",
+        "openTime": {
+          "hours": 23
+        },
+        "closeDay": "SATURDAY",
+        "closeTime": {
+          "hours": 24
+        }
+      }
+    ]
+  },
+  "specialHours": {
+    "specialHourPeriods": [
+      {
+        "startDate": {
+          "year": 2020,
+          "month": 12,
+          "day": 31
+        },
+        "openTime": {
+          "hours": 5
+        },
+        "endDate": {
+          "year": 2020,
+          "month": 12,
+          "day": 31
+        },
+        "closeTime": {
+          "hours": 23
+        }
+      },
+      {
+        "startDate": {
+          "year": 2021,
+          "month": 1,
+          "day": 1
+        },
+        "endDate": {
+          "year": 2021,
+          "month": 1,
+          "day": 1
+        },
+        "closed": true
+      }
+    ]
+  },
+  "labels": [
+    "test"
+  ],
+  "openInfo": {
+    "status": "OPEN",
+    "canReopen": true
+  },
+  "metadata": {
+    "canDelete": true,
+    "canModifyServiceList": true,
+    "canHaveFoodMenus": true
+  }
+}
