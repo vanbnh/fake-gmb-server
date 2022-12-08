@@ -1,10 +1,11 @@
-from django.http import HttpResponse
-from django.shortcuts import render
-import numpy as np
-from rest_framework import status, generics, authentication
+import random
+import string
+
+from rest_framework import status, generics
 from rest_framework.response import Response
 
 from gmb.common.Accounts_reponse import Account, AccountList
+from gmb.json_template.local_post import local_post_json_template
 from gmb.models import Accounts
 
 # Create your views here.
@@ -41,3 +42,18 @@ class GetListAccount(generics.ListAPIView):
         return Response(AccountList(self,account_query), status=status.HTTP_200_OK)
 
 get_list_account = GetListAccount.as_view()
+
+
+class GetLocalPost(generics.ListAPIView):
+
+    def get(self, request, *args, **kwargs):
+        post_ids = [''.join(random.choices(string.digits, k=16)) for _ in range(100)]
+        data_list = [local_post_json_template(self.kwargs['account_id'], self.kwargs['location_id'], post_id)
+                     for post_id in post_ids]
+        data = {'location': data_list}
+        return Response(data, status=status.HTTP_200_OK)
+
+
+get_local_post = GetLocalPost.as_view()
+
+
